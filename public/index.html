@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIT Assistant Builder 0.0.3</title>
+    <style>
+        body { 
+            background-color: #222; 
+            color: #fff;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #fff;
+        }
+        .row {
+            display: flex;
+            margin-bottom: 10px;
+            align-items: center;
+        }
+        .col {
+            flex: 1;
+            margin-right: 10px;
+        }
+        .col:last-child {
+            margin-right: 0;
+            flex: 0 0 200px; /* Fixed width for button column */
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #0d6efd;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #fff;
+            color: #000;
+            border: 1px solid #444;
+        }
+        #agentContextWindow {
+            background-color: #333;
+            border: 1px solid #444;
+            padding: 10px;
+            margin-top: 20px;
+            height: 200px;
+            overflow-y: auto;
+        }
+        .user-message {
+            color: #4a4a4a;
+            background-color: #e9ecef;
+            padding: 5px 10px;
+            border-radius: 5px;
+            margin-bottom: 5px;
+        }
+        .assistant-message {
+            color: #155724;
+            background-color: #d4edda;
+            padding: 5px 10px;
+            border-radius: 5px;
+            margin-bottom: 5px;
+        }
+        .error-message {
+            color: #721c24;
+            background-color: #f8d7da;
+            padding: 5px 10px;
+            border-radius: 5px;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>MIT Assistant Builder 0.0.3</h1>
+        
+        <div class="row">
+            <div class="col">
+                <input type="text" id="assistantName" placeholder="Assistant Name">
+            </div>
+            <div class="col">
+                <input type="text" id="assistantId" placeholder="Assistant ID">
+            </div>
+            <div class="col">
+                <button id="getAssistant">Get Assistant by Name</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <input type="text" id="threadId" placeholder="Thread ID">
+            </div>
+            <div class="col">
+                <button id="createThread">Create New Context Thread</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <input type="text" id="userPrompt" placeholder="Enter your prompt">
+            </div>
+            <div class="col">
+                <button id="inputPrompt">Input User Prompt</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <input type="text" id="runId" placeholder="Run ID">
+            </div>
+            <div class="col">
+                <button id="runAgent">Run Agent</button>
+            </div>
+        </div>
+
+        <div id="agentContextWindow"></div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
