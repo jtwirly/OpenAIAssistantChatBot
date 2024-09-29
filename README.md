@@ -1,4 +1,4 @@
-# OpenAI Assistant ChatBot
+# OpenAI Assistant ChatBot Using RAG File System
 
 ## Project Overview
 This project is an interactive chatbot application that utilizes the OpenAI API to provide users with answers to questions about specific products. The application is built using an Express web server that serves a web page, allowing users to interact with the chatbot and view the responses.
