@@ -1,0 +1,64 @@
+{
+  "products": [
+    {
+      "name": "Organic Bananas",
+      "category": "Produce",
+      "unit": "bunch"
+    },
+    {
+      "name": "Whole Milk",
+      "category": "Dairy",
+      "unit": "gallon"
+    },
+    {
+      "name": "Whole Wheat Bread",
+      "category": "Bakery",
+      "unit": "loaf"
+    },
+    {
+      "name": "Ground Beef",
+      "category": "Meat",
+      "unit": "pound"
+    },
+    {
+      "name": "Eggs",
+      "category": "Dairy",
+      "unit": "dozen"
+    },
+    {
+      "name": "Romaine Lettuce",
+      "category": "Produce",
+      "unit": "head"
+    },
+    {
+      "name": "Canned Tomatoes",
+      "category": "Canned Goods",
+      "unit": "14.5 oz can"
+    },
+    {
+      "name": "Pasta",
+      "category": "Dry Goods",
+      "unit": "16 oz box"
+    },
+    {
+      "name": "Chicken Breast",
+      "category": "Meat",
+      "unit": "pound"
+    },
+    {
+      "name": "Greek Yogurt",
+      "category": "Dairy",
+      "unit": "32 oz container"
+    },
+    {
+      "name": "Frozen Mixed Vegetables",
+      "category": "Frozen Foods",
+      "unit": "16 oz bag"
+    },
+    {
+      "name": "Toilet Paper",
+      "category": "Household",
+      "unit": "12-pack"
+    }
+  ]
+}

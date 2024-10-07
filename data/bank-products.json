@@ -1,0 +1,52 @@
+{
+  "products": [
+    {
+      "name": "Savings Account",
+      "description": "A basic account for storing money and earning interest"
+    },
+    {
+      "name": "Checking Account",
+      "description": "An account for daily transactions and bill payments"
+    },
+    {
+      "name": "Certificate of Deposit (CD)",
+      "description": "A savings account with a fixed term and typically higher interest rate"
+    },
+    {
+      "name": "Money Market Account",
+      "description": "A high-yield savings account with check-writing privileges"
+    },
+    {
+      "name": "Personal Loan",
+      "description": "Unsecured loan for personal use with fixed repayment terms"
+    },
+    {
+      "name": "Mortgage",
+      "description": "Long-term loan for purchasing a home or property"
+    },
+    {
+      "name": "Home Equity Line of Credit (HELOC)",
+      "description": "A revolving credit line secured by your home's equity"
+    },
+    {
+      "name": "Credit Card",
+      "description": "A revolving line of credit for purchases and cash advances"
+    },
+    {
+      "name": "Individual Retirement Account (IRA)",
+      "description": "A tax-advantaged account for retirement savings"
+    },
+    {
+      "name": "Business Checking Account",
+      "description": "A checking account designed for business transactions"
+    },
+    {
+      "name": "Student Loan",
+      "description": "Loans specifically for educational expenses"
+    },
+    {
+      "name": "Foreign Currency Exchange",
+      "description": "Service for exchanging one currency for another"
+    }
+  ]
+}
