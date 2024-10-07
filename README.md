@@ -15,11 +15,11 @@ This project is an interactive chatbot application that utilizes the OpenAI API 
 ## Getting Started
 
 1. **Clone the Repository**: Start by cloning the project repository from GitHub.
-2. **Set up OpenAI**: Obtain an OpenAI API key and set it up in your project's environment.
+2. **Set up OpenAI**: Set up your own OpenAI assistant and upload the two json files into it (grocery-products.json and bank-products.json)
 3. **Install Dependencies**: Install the required dependencies, including Express and any other necessary libraries.
 4. **Run the Server**: Start the Express web server, which will serve the chatbot web page.
-5. **Interact with the Chatbot**: Navigate to the web page in your browser and start asking questions about the available products. The chatbot will respond with relevant information.
-
+5. **Interact with the Chatbot**: Navigate to the web page in your browser, input your assistant ID, and start asking questions about the available products. The chatbot will respond with relevant information.
+   
 ## Project Structure
 ```bash
 ├── public/
