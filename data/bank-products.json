@@ -1,52 +1,182 @@
-{
-  "products": [
-    {
-      "name": "Savings Account",
-      "description": "A basic account for storing money and earning interest"
-    },
-    {
-      "name": "Checking Account",
-      "description": "An account for daily transactions and bill payments"
-    },
-    {
-      "name": "Certificate of Deposit (CD)",
-      "description": "A savings account with a fixed term and typically higher interest rate"
-    },
-    {
-      "name": "Money Market Account",
-      "description": "A high-yield savings account with check-writing privileges"
-    },
-    {
-      "name": "Personal Loan",
-      "description": "Unsecured loan for personal use with fixed repayment terms"
-    },
-    {
-      "name": "Mortgage",
-      "description": "Long-term loan for purchasing a home or property"
-    },
-    {
-      "name": "Home Equity Line of Credit (HELOC)",
-      "description": "A revolving credit line secured by your home's equity"
-    },
-    {
-      "name": "Credit Card",
-      "description": "A revolving line of credit for purchases and cash advances"
-    },
-    {
-      "name": "Individual Retirement Account (IRA)",
-      "description": "A tax-advantaged account for retirement savings"
-    },
-    {
-      "name": "Business Checking Account",
-      "description": "A checking account designed for business transactions"
-    },
-    {
-      "name": "Student Loan",
-      "description": "Loans specifically for educational expenses"
-    },
-    {
-      "name": "Foreign Currency Exchange",
-      "description": "Service for exchanging one currency for another"
-    }
-  ]
-}
+[
+   {
+       "Product Type": "Personal Loan",
+       "Bank": "Wells Fargo",
+       "Country": "USA",
+       "Interest Rate": "10.25% APR",
+       "Credit Limit": "$30,000",
+       "Rewards": null,
+       "Eligibility": "Minimum 18 years old, employed, Minimum salary of $50,000, credit score above 720"
+   },
+   {
+       "Product Type": "Credit Card",
+       "Bank": "Chase",
+       "Country": "USA",
+       "Interest Rate": "15.99% APR",
+       "Credit Limit": "$15,000",
+       "Rewards": "1.5% cashback on all purchases",
+       "Eligibility": "Minimum 21 years old, employed, credit score above 700"
+   },
+   {
+       "Product Type": "Auto Loan",
+       "Bank": "Bank of America",
+       "Country": "USA",
+       "Interest Rate": "3.50% APR",
+       "Credit Limit": "$50,000",
+       "Rewards": null,
+       "Eligibility": "Minimum 20 years old, employed, Minimum salary of $40,000, credit score above 680"
+   },
+   {
+       "Product Type": "Mortgage",
+       "Bank": "Citi Bank",
+       "Country": "USA",
+       "Interest Rate": "5.75% APR",
+       "Credit Limit": "$500,000",
+       "Rewards": null,
+       "Eligibility": "Minimum 25 years old, employed, Minimum salary of $80,000, credit score above 750"
+   },
+   {
+       "Product Type": "Business Loan",
+       "Bank": "Capital One",
+       "Country": "USA",
+       "Interest Rate": "7.20% APR",
+       "Credit Limit": "$100,000",
+       "Rewards": null,
+       "Eligibility": "Minimum 21 years old, business owner, Minimum annual revenue of $100,000, credit score above 700"
+   },
+   {
+       "Product Type": "Savings Account",
+       "Bank": "PNC Bank",
+       "Country": "USA",
+       "Interest Rate": "1.25% APY",
+       "Credit Limit": null,
+       "Rewards": null,
+       "Eligibility": "Minimum 18 years old, valid ID, Social Security Number"
+   },
+   {
+       "Product Type": "Checking Account",
+       "Bank": "US Bank",
+       "Country": "USA",
+       "Interest Rate": null,
+       "Credit Limit": null,
+       "Rewards": "$200 sign-up bonus after meeting spending requirements",
+       "Eligibility": "Minimum 18 years old, valid ID, minimum deposit of $25"
+   },
+   {
+       "Product Type": "Student Loan",
+       "Bank": "Discover",
+       "Country": "USA",
+       "Interest Rate": "4.99% APR",
+       "Credit Limit": "$40,000",
+       "Rewards": "1% cashback on auto-debit payments",
+       "Eligibility": "Minimum 18 years old, enrolled in college, co-signer required, credit score above 650"
+   },
+   {
+       "Product Type": "Home Equity Line of Credit (HELOC)",
+       "Bank": "Regions Bank",
+       "Country": "USA",
+       "Interest Rate": "6.25% APR",
+       "Credit Limit": "$250,000",
+       "Rewards": null,
+       "Eligibility": "Minimum 25 years old, homeowner, Minimum salary of $70,000, credit score above 720"
+   },
+   {
+       "Product Type": "Certificate of Deposit (CD)",
+       "Bank": "TD Bank",
+       "Country": "USA",
+       "Interest Rate": "3.10% APY",
+       "Credit Limit": null,
+       "Rewards": null,
+       "Eligibility": "Minimum 18 years old, minimum deposit of $1,000"
+   }
+   {
+       "Product Type": "Money Market Account",
+       "Bank": "Ally Bank",
+       "Country": "USA",
+       "Interest Rate": "2.00% APY",
+       "Credit Limit": null,
+       "Rewards": null,
+       "Eligibility": "Minimum 18 years old, valid ID, Social Security Number, minimum deposit of $100"
+   },
+   {
+       "Product Type": "Small Business Credit Card",
+       "Bank": "American Express",
+       "Country": "USA",
+       "Interest Rate": "16.49% APR",
+       "Credit Limit": "$25,000",
+       "Rewards": "2% cashback on business-related purchases",
+       "Eligibility": "Minimum 21 years old, business owner, credit score above 710"
+   },
+   {
+       "Product Type": "FHA Loan",
+       "Bank": "Quicken Loans",
+       "Country": "USA",
+       "Interest Rate": "4.25% APR",
+       "Credit Limit": "$300,000",
+       "Rewards": null,
+       "Eligibility": "Minimum 18 years old, employed, Minimum salary of $40,000, credit score above 620"
+   },
+   {
+       "Product Type": "Health Savings Account (HSA)",
+       "Bank": "Fidelity",
+       "Country": "USA",
+       "Interest Rate": "1.50% APY",
+       "Credit Limit": null,
+       "Rewards": null,
+       "Eligibility": "Minimum 18 years old, enrolled in a high-deductible health plan, Social Security Number"
+   },
+   {
+       "Product Type": "Travel Rewards Credit Card",
+       "Bank": "Barclays",
+       "Country": "USA",
+       "Interest Rate": "17.99% APR",
+       "Credit Limit": "$10,000",
+       "Rewards": "3X points on travel and dining purchases",
+       "Eligibility": "Minimum 21 years old, employed, credit score above 680"
+   },
+   {
+       "Product Type": "Investment Account",
+       "Bank": "Charles Schwab",
+       "Country": "USA",
+       "Interest Rate": null,
+       "Credit Limit": null,
+       "Rewards": "Commission-free trading on stocks and ETFs",
+       "Eligibility": "Minimum 18 years old, valid ID, Social Security Number"
+   },
+   {
+       "Product Type": "IRA Account",
+       "Bank": "Vanguard",
+       "Country": "USA",
+       "Interest Rate": "2.25% APY",
+       "Credit Limit": null,
+       "Rewards": null,
+       "Eligibility": "Minimum 18 years old, valid ID, Social Security Number, minimum deposit of $500"
+   },
+   {
+       "Product Type": "Line of Credit",
+       "Bank": "BBVA Compass",
+       "Country": "USA",
+       "Interest Rate": "8.75% APR",
+       "Credit Limit": "$75,000",
+       "Rewards": null,
+       "Eligibility": "Minimum 21 years old, employed, Minimum salary of $60,000, credit score above 710"
+   },
+   {
+       "Product Type": "Secured Credit Card",
+       "Bank": "First National Bank",
+       "Country": "USA",
+       "Interest Rate": "19.99% APR",
+       "Credit Limit": "$5,000",
+       "Rewards": null,
+       "Eligibility": "Minimum 18 years old, security deposit required, credit score above 600"
+   },
+   {
+       "Product Type": "Jumbo Mortgage",
+       "Bank": "SunTrust",
+       "Country": "USA",
+       "Interest Rate": "5.85% APR",
+       "Credit Limit": "$1,000,000",
+       "Rewards": null,
+       "Eligibility": "Minimum 25 years old, employed, Minimum salary of $120,000, credit score above 740"
+   }
+]
